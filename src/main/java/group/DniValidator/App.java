@@ -15,9 +15,11 @@ public class App
     {
 
     	System.out.println("introduzca un DNI:");
+    	//Get Dni Value
     	Scanner scanner = new Scanner(System.in);
     	String dniTxt=scanner.nextLine();
     	Dni dni= new Dni();
+    	//Dni class
     	dni.validadorDni(dniTxt);
     }
    
